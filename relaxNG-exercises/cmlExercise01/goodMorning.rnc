@@ -1,0 +1,28 @@
+start=label
+label = element xml {source, poem}
+
+source = element source {mixed{(title+, author+, date+)}}
+title = element title {level*,text}
+level = attribute level {"book"|"inner"}
+
+author = element author {text}
+
+date=element date {when, empty}
+when=attribute when {"1951"}
+
+poem=element poem {(title+, lineGroup+)}
+
+
+
+
+lineGroup=element lineGroup {line+}
+line=element line {n, (text+|placeName|place|motif)*}
+
+n=attribute n {text}
+placeName=element placeName {ref*,text}
+ref=attribute ref {text}
+
+place=element place {ref*,text}
+
+
+motif=element motif {text}

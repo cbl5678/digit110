@@ -1,0 +1,34 @@
+start=label
+label= element poem {metadata, stanza+}
+
+metadata= element metadata {title, person,date+, copyright}
+title=element title {of, text }
+of=attribute of {text|xsd:gYear}
+
+person=element person {who+,name+}
+name=element name {who+,firstName, lastName}
+who=attribute who {text}
+
+firstName= element firstName {text}
+lastName= element lastName {text}
+
+date=element date {(of+|type+),(year+|text)}   
+year=element year {of+, text}
+type=attribute type {text}
+
+copyright=element copyright {mixed{date+,holder,source+}}
+
+holder=element holder {of+, text}
+
+source=element source {text}
+
+stanza=element stanza {n+,num+, line+}
+
+n=attribute n {xsd:integer}
+
+num=element num {of+, text}
+
+line=element line {mixed{date+|selfThought*}}
+selfThought= element selfThought {who+, text}
+month= element month {type,text}
+

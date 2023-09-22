@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text type="letters">
+    <letter n="1">
+        <metaData>
+            <date of="08_07_1917">
+                <month of="year">July</month>
+                <day of="month">8th,</day>
+                <year of="1917">1917</year>
+            </date>
+        </metaData>
+        <!--I know this is repeating but I wanted to stay consistent with the year attribute-->
+        <body of="letter"><day of="week">Friday</day>
+            <time of="day">night</time> we entered the <location>war zone</location> at <time
+                is="19:00">seven o'clock</time> but you would never know it. Aside from boat-drills
+            and sleeping on deck people act as usual. The officers on the boat are very particular
+            about the drills; several times the alarm has sounded and we have been taught just what
+            to do in case we are hit. <opinion of="writer">It's very funny to see the people rush
+                below for their valuables, strapping on their life preservers as they go
+                </opinion><sideThought of="writer">(which we always have near at hand wherever we
+                are -on deck or in the saloon)</sideThought>. <start of="drill"/>In about five
+            minutes we are lined up, divided into groups in front of our own particular life-boats
+            which have been swung out over the sea ready to lower. Every one is checked off and each
+            man is told what woman he is to save. <sideThought of="writer">(Great excitement at this
+                point as no one of the men wants to save the lady detailed to him, but some one in
+                another boat!)</sideThought> We all stand about looking too absurd and bumping into
+            each other's life preservers on the crowded upper deck. Finally the signal is given
+            which releases us, and we all file down again to take off the clumsy heavy jackets of
+            safety and regale ourselves with various amusements on the deck.<end of="drill"
+            /><!--I hope I used the self closing elements correctly--> Rumor has it that two ships
+            have been sunk, one in the course ahead of where we were yesterday and the other about
+            an hour behind us. No one knows how many lives were lost. Perhaps those three submarines
+            were more fact than fiction after all. It is thought that we should make Bordeaux by
+            Tuesday morning if all goes well and that the convoy which should have met us days ago
+            will be with us to-night. <day is="sunday">This being Sunday, the boys on board are very
+                much dressed up, that is to say they are wearing clean shirts and have their hair
+                brushed! It's a perfect day, <weather>warm and cloudless</weather>, and <action
+                    type="tanning">I've been lying in the sun adding to my coat of tan.</action> We
+                all feel quite <emotion of="everyone">sad</emotion> that the voyage is so nearly
+                over <opinion of="writer">-it has been such loads of fun and I shall hate saying
+                    good-by to every one.</opinion>
+            </day></body>
+        <ship with="writer">La Touraine</ship>
+    </letter>
+
+
+    <letter n="2">
+        <metaData>
+            <travel of="writer">
+                <location direction="from">En route from Bordeaux</location>
+                <location direction="to">to Paris,</location>
+            </travel>
+            <date of="18_07_1917">
+                <month of="year">July</month>
+                <day of="year"> 18th, </day>
+                <year of="1917">1917.</year>
+            </date>
+        </metaData>
+        <body of="letter">
+            <action type="arrival">On landing <day of="17_07_1917">yesterday</day> I went straight
+                to the <location>Hôtel de France</location> and it certainly was good to have room
+                to turn around in: as for a bed with real springs I greeted it with
+                    <emotion>enthusiasm!</emotion> Towards <time of="day">evening</time>
+                <group of="walk">Frank and I</group> took a long walk about the city.</action> A
+            port town always interests me and we saw it all at the loveliest time of
+                day.<description of="harbor"> The harbor was full of fishing smacks and small craft
+                of all kinds and exquisite tones in the sails and rigging. The last rays of the sun
+                cast a rosy hue over everything, making one think at once of Venice and the days
+                before the war.</description><action of="frankANDwriter"> Later we wandered through
+                some of the oldest parts of Bordeaux</action> and <emotion of="writer">I really felt
+                that I was abroad again!</emotion><setting> The narrow winding streets and
+                cobblestones, with here and there an ancient façade or doorway and everywhere, in
+                the poorest alleys, a bit of a vine or potted plant in the windows.
+                </setting><question of="selfReflection">How do they manage to make it all so
+                picturesque and alluring?</question> The women and the old men are doing everything
+            and it is <emotion>surprising</emotion> to see the lady conductors. On this train they
+            use women entirely, even in the dining car. The war hasn't robbed them of vivacity or
+            their beautiful complexions and I believe they are even prettier in their simple black
+            working clothes than before. <setting>We are at present passing through the famous
+                vineyards and I have never seen the country look so beautiful.</setting> The crops
+            seem in perfect condition, thanks to the patient labor of these wonderful women, and the
+            grain waves in profusion everywhere. I have longed for you at every turn, how you would
+            enjoy it all. The poppies are in their prime and, as the train whirls by, they look like
+            immense splashes of red -almost like stains of blood against the gold of the wheat.
+                <action type="eating">I have just come in from a very excellent meal in the dining
+                car</action> -the food was served promptly by two French girls of the peasant type
+            and with a speed that was wonderful, the car holding over thirty persons.</body>
+        <location of="letter">Paris</location>
+    </letter>
+    <!--When copied and line wrapped there were still spaces separating certain areas.. i pretty printed without doing any more structure first. -->
+
+</text>
