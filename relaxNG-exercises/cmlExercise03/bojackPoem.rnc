@@ -1,0 +1,24 @@
+start=poem
+poem=element poem {metadata, body}
+
+metadata=element metadata {source, tvShow, airDate}
+source=element source {of, text}
+of=attribute of {"poem"}
+
+tvShow=element tvShow {of, text}
+
+airDate=element airDate {on, empty}
+on=attribute on {xsd:date}
+
+
+body=element body {title, stanza+}
+title=element title {xmlid, text}
+xmlid=attribute id {"The View From Halfway Down"}
+
+stanza= element stanza {n+, line+}
+line=element line {mixed{n, (sentenceStart|repeat|sentenceEnd)}|text}
+sentenceStart= element sentenceStart {n, empty}
+sentenceEnd=element sentenceEnd {n,empty}
+repeat=element repeat {empty}
+
+n=attribute n {xsd:integer}

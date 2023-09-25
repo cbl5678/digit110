@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="bojackPoem.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+    <metadata>
+        <source of="poem"
+            >https://bojackhorseman.fandom.com/wiki/The_View_From_Halfway_Down_(Poem)</source>
+        <tvShow of="poem">Bojack Horseman</tvShow>
+        <airDate on="2020-12-31"/>
+
+    </metadata>
+    <body>
+        <title id="The View From Halfway Down">The View From Halfway Down</title>
+        <stanza n="1">
+            <line n="1"><sentenceStart n="1"/>The weak breeze whispers nothing</line>
+            <line n="2">the water screams sublime.<sentenceEnd n="1"/></line>
+            <line n="3">
+                <sentenceStart n="2"/>His feet shift, teeter-totter </line>
+            <line n="4"> deep breaths, stand back, it’s time.<sentenceEnd n="2"/></line>
+        </stanza>
+
+        <stanza n="2">
+            <line n="5"><sentenceStart n="3"/>Toes untouch the overpass</line>
+            <line n="6">soon he’s water-bound.<sentenceEnd n="3"/></line>
+            <line n="7"><sentenceStart n="4"/>Eyes locked shut but peek to see</line>
+            <line n="8"><repeat/>the view from halfway down.<sentenceEnd n="4"/></line>
+        </stanza>
+
+        <stanza n="3">
+            <line n="9"><sentenceStart n="5"/>A little wind, a summer sun</line>
+            <line n="10">a river rich and regal.<sentenceEnd n="5"/></line>
+            <line n="11"><sentenceStart n="6"/>A flood of fond endorphins</line>
+            <line n="12">brings a calm that knows no equal.<sentenceEnd n="6"/></line>
+        </stanza>
+
+        <stanza n="4">
+            <line n="13"><sentenceStart n="7"/>You’re flying now, you see things</line>
+            <line n="14"> much more clear than from the ground.<sentenceEnd n="7"/></line>
+            <line n="15"><sentenceStart n="8"/>It's all okay, or it would be</line>
+            <line n="16">were you not now halfway down.<sentenceEnd n="8"/></line>
+        </stanza>
+
+        <stanza n="5">
+            <line n="17"><sentenceStart n="9"/>Thrash to break from gravity</line>
+            <line n="18"> what now could slow the drop?<sentenceEnd n="9"/></line>
+            <line n="19"><sentenceStart n="10"/>All I’d give for toes to touch</line>
+            <line n="20">the safety back at top.<sentenceEnd n="10"/></line>
+        </stanza>
+
+        <stanza n="6">
+            <line n="21"><sentenceStart n="11"/>But this is it, the deed is done</line>
+            <line n="22">silence drowns the sound.<sentenceEnd n="11"/></line>
+            <line n="23"><sentenceStart n="12"/>Before I leaped I should've seen</line>
+            <line n="24"><repeat/> the view from halfway down.<sentenceEnd n="12"/></line>
+        </stanza>
+
+        <stanza n="7">
+            <line n="25"><sentenceStart n="13"/>I really should’ve thought about</line>
+            <line n="26">the view from halfway down.<sentenceEnd n="13"/>
+            </line>
+            <line n="27"><sentenceStart n="14"/>I wish I could've known about</line>
+            <line n="28">
+                <repeat/>the view from halfway down—<sentenceEnd n="14"/></line>
+        </stanza>
+    </body>
+</poem>
