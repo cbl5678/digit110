@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tom Hanks Letter</title>
+         </titleStmt>
+         <publicationStmt>
+            <p><date when="2012-07-13">13 July 2012</date></p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><ref target="https://flashbak.com/tom-hanks-writes-great-letter-1934-smith-corona-typerwriter-58609/"></ref></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+      <text>
+         <body>
+         <p><date when="2012-07-13">13 July 2012</date></p>
+            
+            <p>PLAYTONE</p>
+            
+            <p>Dear <name type="person">Chris</name>, <name type="person">Ashley</name>, and all the diabolical genuies at <name type="company">Nerdist Industries.</name></p>
+            
+          <p>  Just who do you think you are to try to <distinct style="red">briibe me</distinct> into an apperance on your <q type="mentioned">‘thing’</q> with this gift of the most fantastic Cornona Silent typewriter made in <date >1934</date>?</p>
+            
+           <p> You are out of your minds if you think… that I… wow, this thing has great action… and this deep crimson color… Wait! I’m not so shallow as to… and it types nearly silently…</p>
+            
+            <p>Oh, OKAY!</p>
+            
+           <p> I will have my people contact yours and work out some kind of interview process…</p>
+            
+            <p>Damn you all to hell,</p>
+            
+            <closer><addName type="signature">(Signed, ‘Tom Hanks’)</addName></closer>
+      </body>
+  </text>
+</TEI>
