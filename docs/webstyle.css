@@ -1,9 +1,44 @@
 
 body {
-background-color: lightblue;
-color: indigo;
+background-color:  #000080;
+color: white;
 font-family: serif, monospace;
+border:10px solid transparent;
+border-image-source: url(images/psuLogo.png);
+border-image-outset:7px;
+border-image-repeat:repeat;
+padding: 30px;
 }
+#title {text-align: center;
+text-decoration: underline;
+
+}
+
+#digitPic {background-color:white;
+width: 50%;
+height:auto;
+border-style:solid;
+border-width:10px;
+border-color:black;
+border-radius:5px;
+padding:5px;
+box-shadow: 10px  5px 15px black;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#digitLink{color:white;}
+#digitLink:link {color:White;}
+#digitLink:hover {color:#616161;}
+#digtLink:after {color:#616161;}
+
+#bLink {color:white;}
+#bLink:link {color:White;}
+#bLink:hover {color:#616161;}
+#bLink:after {color:#616161;}
+
 ol {list-style-type: lower-alpha;
 padding: 5em;
     
