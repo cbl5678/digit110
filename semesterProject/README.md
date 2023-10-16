@@ -1,3 +1,0 @@
-# Semester Project 
-
-Homework Exercises
