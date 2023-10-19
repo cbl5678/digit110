@@ -9,9 +9,9 @@ border-image-outset:7px;
 border-image-repeat:repeat;
 padding: 30px;
 }
+
 #title {text-align: center;
 text-decoration: underline;
-
 }
 
 #digitPic {background-color:white;
@@ -26,7 +26,24 @@ box-shadow: 10px  5px 15px black;
 display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  
+}
+
+.tuckerBeau{
+width:320px ;
+height:50%;
+border-style:solid;
+border-width:10px;
+border-color:black;
+border-radius:5px;
+padding:5px; 
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:white;
+}
+#tuckerbeauFig{text-align:center;
+padding:10px;
 }
 
 #digitLink{color:white;}
@@ -38,6 +55,13 @@ display: block;
 #bLink:link {color:White;}
 #bLink:hover {color:#616161;}
 #bLink:after {color:#616161;}
+
+#mercer{color:white;}
+#mercer:hover{color:black;}
+
+#nav{text-align:center;}
+.nav{color:white;}
+.nav:hover {color:black;}
 
 ol {list-style-type: lower-alpha;
 padding: 5em;
